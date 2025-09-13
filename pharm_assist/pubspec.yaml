@@ -1,0 +1,49 @@
+name: pharm_assist_dashboard
+description: A Flutter dashboard application for pharmacy management.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # HTTP & Networking
+  dio: ^5.3.2
+  connectivity_plus: ^5.0.1
+
+  # State Management
+  provider: ^6.0.5
+
+  # UI & Theme
+  google_fonts: ^6.1.0
+
+  # Charts
+  fl_chart: ^0.64.0
+
+  # Data handling
+  json_annotation: ^4.8.1
+
+  # Storage & Preferences
+  shared_preferences: ^2.2.2
+
+  # Date formatting
+  intl: ^0.18.1
+
+  # Dev dependencies
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
